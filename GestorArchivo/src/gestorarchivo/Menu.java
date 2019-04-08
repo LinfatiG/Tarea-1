@@ -66,7 +66,7 @@ public class Menu {
                 // Se cierra el fichero y el flujo de escritura.
             }
 
-        } catch (IOException ex) { //Captura cualquier posible error y lo muestra por pantalla
+        } catch (IOException ex) { // Captura cualquier posible error y lo muestra por pantalla.
             System.out.println("Ha ocurrido un error " + ex.getMessage());
         }
         return texto;
@@ -115,7 +115,7 @@ public class Menu {
 
     }
 
-    public int val() {
+    public int val() { // Valida que solo se ingresen caracteres numericos.
         int num = 0;
         boolean error;
 
